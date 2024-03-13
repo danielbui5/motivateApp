@@ -17,7 +17,7 @@ function Welcome({ navigation }) {
 
     return (
         <View style={{flexDirection: 'column', alignItems: 'center'}}>
-            <View style={{marginTop: 200}}>
+            <View style={{marginTop: 240}}>
                 <Text style={styles.setupDisplayText}>  
                     Welcome to Motivate
                 </Text>

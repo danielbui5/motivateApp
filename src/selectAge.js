@@ -14,12 +14,12 @@ function SelectAge({ navigation }) {
     const handlePress = () => {
         setNextPage(true);
         // Navigate to the next page
-        navigation.navigate('NextPage');
+        navigation.navigate('NumNotifications');
     };
 
     return (
         // Displays text for age selection page
-        <View style={{flexDirection: 'column', alignItems: 'center'}}>
+        <View style={{flexDirection: 'column', alignItems: 'center', padding: 30}}>
             <View style={{marginTop: 175}}>
                 <Text style={styles.setupDisplayText}> 
                     To help us better curate your experience, tell us your age range

@@ -2,8 +2,10 @@ import { StyleSheet } from "react-native"
 
 const styles = StyleSheet.create({
     setupTextContainer: {
+        display: 'flex',
         alignItems:'center',
-        justifyContent:'center',
+        justifyContent:'space-between',
+        flexDirection: 'row',
         flex: 1,
     },
     setupDisplayText: {
@@ -39,7 +41,7 @@ const styles = StyleSheet.create({
         backgroundColor: 'black',
     },
     buttonOnClickText: {
-        color: 'grey'
+        color: 'lightgrey'
     },
 })
 
