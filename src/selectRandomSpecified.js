@@ -17,7 +17,7 @@ function SelectRandomSpecified({ navigation }) {
         // If random is slected, navigate straight to welcome to app
         if (selectedRandom) {
             // Navigate to the next page
-            navigation.navigate('');
+            navigation.navigate('PreferencesSet');
             // Else, specified has been selected
             // Navigate to choose preferred times
         } else {

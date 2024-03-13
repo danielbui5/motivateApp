@@ -24,7 +24,7 @@ function NumNotifications({ navigation }) {
     // Function to handle navigation to the next page
     const handlePress = () => {
         if (isInputValid) {
-            navigation.navigate('NextPage');
+            navigation.navigate('SelectRandomSpecified');
         }
     };
 
