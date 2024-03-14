@@ -21,7 +21,7 @@ function SelectRandomSpecified({ navigation }) {
             // Else, specified has been selected
             // Navigate to choose preferred times
         } else {
-            navigation.navigate('');
+            navigation.navigate('SelectSpecifiedTimes');
         }
     };
 

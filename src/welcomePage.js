@@ -26,9 +26,9 @@ function Welcome({ navigation }) {
             {/* Pressable button triggering handlePress */}
             <View style={{marginTop: 330}}>
                 <Pressable onPress={handlePress}>
-                    <View style={{}}>
+                    {/* <View> */}
                         <FontAwesomeIcon icon={faCircleChevronRight} size={40} />
-                    </View> 
+                    {/* </View>  */}
                 </Pressable>
             </View>
         </View>

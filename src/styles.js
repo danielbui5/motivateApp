@@ -43,6 +43,9 @@ const styles = StyleSheet.create({
     buttonOnClickText: {
         color: 'lightgrey'
     },
+    calendarStyle: {
+        
+    }
 })
 
 export default styles

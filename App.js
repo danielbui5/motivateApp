@@ -8,6 +8,7 @@ import NumNotifications from "./src/numberOfNotifications";
 import SelectRandomSpecified from "./src/selectRandomSpecified";
 import PreferencesSet from "./src/preferencesSet";
 import SelectSpecifiedTimes from "./src/selectSpecifiedTimes";
+import HomePage from "./src/homePage";
 
 const Stack = createStackNavigator();
 
@@ -21,6 +22,7 @@ export default function App() {
                 <Stack.Screen name="SelectRandomSpecified" component={SelectRandomSpecified} />
                 <Stack.Screen name="PreferencesSet" component={PreferencesSet} />
                 <Stack.Screen name="SelectSpecifiedTimes" component={SelectSpecifiedTimes} />
+                <Stack.Screen name="HomePage" component={HomePage} />
             </Stack.Navigator>
         </NavigationContainer>
     )
